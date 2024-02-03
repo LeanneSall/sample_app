@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: sample-app
-        image: lsall1071/sample-app:1.0.0
+        image: lsall1071/sample-app:1.0.1
         ports:
         - containerPort: 80
