@@ -1,21 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: sample_app
+  name: sample-app
   labels:
-    app: sample_app
+    app: sample-app
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: sample_app
+      app: sample-app
   template:
     metadata:
       labels:
-        app: sample_app
+        app: sample-app
     spec:
       containers:
-      - name: sample_app
-        image: lsall1071/sample_app:1.0.0
+      - name: sample-app
+        image: lsall1071/sample-app:1.0.0
         ports:
         - containerPort: 80
